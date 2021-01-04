@@ -6,13 +6,11 @@ body{
 .name_highlight{
     color: orange;
 }
-.half-width h1{
-    font-size: 50px;
-}  
+
 .half-width{
     width: 40%; 
     float: left;  
-    margin-left: 5%;
+    margin-left: 4%;
     padding-left: 2%;   
 }
 .half-width img{
@@ -34,4 +32,52 @@ section{
     color:white;
 
 
+}
+h1{
+    font-size: 50px;
+    color: firebrick;
+}
+h2{
+    font-size: 40px;
+    color:firebrick;
+}
+h3{
+    color: orange;
+}
+.bottom-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+p{
+    color: dimgray;
+}
+.box-area{
+    box-shadow: 10px 10px 40px gray;
+    border-radius:5px;
+    height: 55%;
+    background-color: white;
+    
+}
+.work-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#border{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,firebrick, lightsalmon);
+    border-image-slice: 1;
+    /* background-image:linear-gradient(180deg,lightsalmon , tomato); */
+}
+#border2{
+    border-left: 8px solid;
+    /* border-image: linear-gradient(45deg,lightsalmon , tomato); */
+    border-image:linear-gradient(180deg,blue ,cyan);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+    font-size: 12px;
 }
